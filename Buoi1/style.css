@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+#header {
+    display: flex;
+    height: 80px;
+    width: 1519px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#header-left {
+    display: flex;
+    width: 131px;
+    height: 80px;
+}
+
+#header-left:hover #down-left {
+    color: red;
+    cursor: pointer;
+}
+
+#riot {
+    display: inline-block;
+    margin-left: 36px;
+    width: 100%;
+    height: 100%;
+    fill: white;
+
+}
+
+#riot:hover {
+    fill: red;
+}
+
+
+._32ANSIZormifc9Vc6VVwrx {
+    margin-top: 25px;
+}
+
+#down-left {
+    margin-left: 4px;
+    color: #7e7e7e;
+    margin-top: 30px;
+    width: 20px;
+    height: 24px;
+}
+
+
+
+
+#header-middle {
+    height: 100%;
+    width: 1192px;
+}
+
+.header-list {
+    margin-left: 25px;
+    display: flex;
+    list-style: none;
+}
+
+.middle {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.middle:hover {
+    border-bottom: 3px solid rgb(0, 160, 186);
+    cursor: pointer;
+}
+
+#header-middle {
+    width: 1023px;
+    height: 100%;
+}
+
+#lol {
+    margin-top: 25px;
+}
+
+#tro-choi {
+    color: white;
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 37px;
+}
+
+#tuong {
+    color: white;
+    width: 83px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#tin-tuc {
+    color: white;
+    width: 103px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#down-middle {
+    margin-left: 4px;
+    color: #7e7e7e;
+    width: 20px;
+    height: 24px;
+}
+
+#chi-tiet {
+    color: white;
+    width: 167px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#esports {
+    color: white;
+    width: 109px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#vu-tru {
+    color: white;
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#ho-tro {
+    color: white;
+    width: 102px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.share {
+    margin-left: 4px;
+}
+
+#header-right {
+    width: 364px;
+    height: 100%;
+}
+
+.right {
+    margin-top: 25px;
+}
+
+#icon {
+    margin-top: 25px;
+}
+
+#search {
+    fill: white;
+}
+
+#globe {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.sign {
+    width: 118px;
+    height: 32px;
+    margin-left: 15px;
+
+}
+
+#dang {
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+#dang:hover {
+    cursor: pointer;
+    filter: brightness(130%);
+}
+
+.trang {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 7.5px 13.5px;
+}
+
+#play {
+    background-color: #0bc4e2;
+    border-radius: 20px;
+}
+
+#play:hover {
+    opacity: 0.8;
+}
+
+#play:hover {
+    cursor: pointer;
+}
+
+.den {
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 7.5px 13.5px;
+}
+
+#body {
+    display: flex;
+}
+
+#body-left {
+    height: 1789px;
+    width: 1043px;
+    margin-left: 60px;
+    margin-top: 130px;
+
+}
+
+#list {
+    list-style: none;
+}
+
+
+.image {
+    width: 421px;
+
+    height: 237px;
+}
+
+
+
+.news {
+    display: flex;
+    width: 987px;
+    height: 336px;
+}
+
+.news:hover {
+    cursor: pointer;
+}
+
+.information {
+    margin-left: 40px;
+    width: 527px;
+    height: 129px;
+    margin-top: 52px;
+}
+
+.category {
+    width: 350px;
+    height: 11px;
+    font-size: 10px;
+    color: #0bc6e3;
+    font-weight: bold;
+}
+
+h2 {
+    width: 350px;
+    height: 57px;
+    letter-spacing: 0.75px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.status {
+    width: 350px;
+    font-size: 12px;
+    margin: 10.5px 0;
+    color: #1a1d21;
+}
+
+#cup {
+    height: 18px;
+}
+
+#kasnte {
+    height: 36px;
+}
+
+#soraka {
+    height: 54px;
+}
+
+#chogath {
+    height: 18px;
+}
+
+#tft {
+    height: 36px;
+}
+
+.author {
+    letter-spacing: 0.75px;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.time {
+    letter-spacing: 0.75px;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+#body-right {
+    width: 355px;
+    height: 933px;
+    margin-right: 60px;
+    border-left: 1px solid #aaaaab;
+}
+
+#body-footer {
+    width: 987px;
+    height: 49px;
+    margin-top: 112px;
+    border-top: 1px solid #aaaaab;
+}
+
+#body-footer:hover {
+    cursor: pointer;
+}
+
+#xem-tin {
+    display: inline-block;
+    margin: 35px 0 0 846px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#arrows {
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+    fill: rgb(11, 198, 227);
+    padding-top: 4px;
+
+}
+
+#right-list {
+    list-style: none;
+    margin-left: 56px;
+    margin-top: 130px;
+}
+
+.bar:hover {
+    cursor: pointer;
+}
+
+.bar-picture {
+    width: 315px;
+    height: 105px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.bar-title {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    right: 203px;
+    width: 135px;
+}
+
+#dragon {
+    height: 44px;
+    top: 140px;
+
+}
+
+#cktg {
+    top: 270px;
+    height: 22px;
+}
+
+#card {
+    top: 407px;
+    height: 46px;
+}
+
+#leona {
+    height: 46px;
+    top: 540px;
+}
+
+#sena {
+    top: 672px;
+    height: 23px;
+}
+
+#annie {
+    top: 802px;
+    height: 23px;
+}
+
+#video {
+    margin: 120px auto 0;
+    width: 1519px;
+    height: 707px;
+    position: relative;
+}
+
+
+button {
+    width: 195px;
+    height: 56px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #0bc6e3;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #13d8f6;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+#footer {
+    height: 532px;
+    width: 1519px;
+    margin-top: 145px;
+}
+
+#footer-top {
+    width: 1519px;
+    height: 78px;
+    background-color: #292929;
+}
+
+#footer-top #top-bar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#middle-top-bar {
+    margin: 0 35px;
+}
+
+#about-lol {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 550;
+    margin-top: 32px;
+    width: 234px;
+    height: 30px;
+    text-align: center;
+}
+
+#about-lol:hover {
+    background-color: #444444;
+    transition: all 0.3s;
+    border-bottom: 3px solid #0bc4e2;
+    border-radius: 20px;
+}
+
+#support {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 550;
+    margin-top: 32px;
+    height: 30px;
+    width: 86px;
+    text-align: center;
+}
+
+#support:hover {
+    background-color: #444444;
+    transition: all 0.3s;
+    border-bottom: 3px solid #0bc4e2;
+    border-radius: 20px;
+}
+
+#main-page {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 550;
+    display: inline-block;
+    margin-top: 32px;
+    height: 30px;
+    width: 197px;
+    text-align: center;
+}
+
+#main-page:hover {
+    background-color: #444444;
+    transition: all 0.3s;
+    border-bottom: 3px solid #0bc4e2;
+    border-radius: 20px;
+}
+
+#footer-bottom {
+    height: 454px;
+    width: 1519px;
+    background-color: #111111;
+}
+
+#about-us {
+    height: 44px;
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact {
+    background-color: #282828;
+    height: 32px;
+    width: 32px;
+    margin: 26px 6px 0;
+    border-radius: 12px;
+}
+
+.contact:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 16px;
+    height: 16px;
+    margin: 8px 0 0 8px;
+    fill: white;
+}
+
+#logo {
+    height: 53px;
+    width: 1519px;
+    margin-top: 55px;
+}
+
+#footer-riot {
+    margin-left: 631px;
+    fill: #737373;
+}
+
+#footer-riot:hover {
+    fill: white;
+}
+
+#vng {
+    margin-left: 18px;
+}
+
+#sub {
+    width: 640px;
+    height: 36px;
+    margin-left: 438px;
+}
+
+#about-riot {
+    text-align: center;
+    font-size: 13px;
+    color: #7e7e7e;
+    line-height: 1.6;
+    font-weight: 550;
+}
+
+
+
+#chinh-sach {
+    width: 1519px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 38px;
+}
+
+.tuy-chon {
+    margin: 0 15px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+}
+
+#bao-mat {
+    width: 191px;
+}
+
+#dieu-khoan {
+    width: 242px;
+}
+
+#cookies {
+    width: 173px;
+}
+
+.tuy-chon:hover {
+    cursor: pointer;
+    background-color: #444444;
+    transition: all 0.3s;
+    border-bottom: 3px solid red;
+    border-radius: 20px;
+}
+
+#eightTeen {
+    width: 248px;
+    height: 124px;
+    margin-top: 35px;
+    margin-left: 635px;
+    background-color: #444444;
+    border-radius: 7px;
+}
+
+#plus {
+    width: 224px;
+    height: 100px;
+    margin-top: 13px;
+    margin-left: 12.5px;
+}
